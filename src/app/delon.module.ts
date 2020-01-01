@@ -33,6 +33,9 @@ export function fnPageHeaderConfig(): PageHeaderConfig {
   return Object.assign(new PageHeaderConfig(), { homeI18n: 'home', recursiveBreadcrumb: true });
 }
 
+// Orange
+// 跳转登录认证位置
+
 import { DelonAuthConfig } from '@delon/auth';
 export function fnDelonAuthConfig(): DelonAuthConfig {
   return {
